@@ -1,7 +1,12 @@
-/* Responsive */
+/*  Mobile  */
 
 body {
     margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 45px;
 }
 
 .header__container {
@@ -14,12 +19,11 @@ body {
 
 .header__container .container {
     margin: 0px;
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
-    /*quitar para que se vea la opacidad
-    background-color: rgba(9, 157, 142, 0.95);*/
+    /*background-color: rgba(9, 157, 142, 0.95);*/
 }
 
 .header__title {
@@ -46,7 +50,12 @@ body {
     height: 45px;
 }
 
-.nav__list-items {
+.nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav__list-items a {
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
@@ -54,6 +63,8 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+    list-style: none;
+    margin: 8px 16px 16px 7px;
 }
 
 
