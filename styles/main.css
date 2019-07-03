@@ -1,9 +1,28 @@
-/*Mobile version*/
-
 .page {
     margin: 0px;
 }
 
+
+/*mobile version*/
+
 .container {
     margin: 0 15px;
+}
+
+
+/*tablet version*/
+
+@media all and (min-width: 768px) {
+    .container {
+        margin: 0 45px;
+    }
+}
+
+
+/*desktop version*/
+
+@media all and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+    }
 }
