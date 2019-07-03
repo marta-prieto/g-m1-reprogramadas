@@ -2,11 +2,6 @@
 
 body {
     margin: 0;
-    padding: 0;
-}
-
-.container {
-    margin: 0 45px;
 }
 
 .header__container {
@@ -18,6 +13,7 @@ body {
 }
 
 .header__container .container {
+    margin: 0 15px;
     margin: 0px;
     width: 100vw;
     height: auto;
@@ -35,7 +31,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header__nav-box {
@@ -59,43 +55,53 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
-    margin: 8px 16px 16px 7px;
+    margin: 15px 8px 15px 7px;
 }
 
 
 /* Version Tablet*/
 
 @media all and (min-width:768px) {
+    .header__container {
+        background-color: rgba(9, 157, 142, 0.95);
+        height: 60px;
+    }
     .header__container .container {
+        padding: 0 45px;
         width: 100%;
         display: flex;
         flex-direction: row;
         align-content: stretch;
-        background-color: rgba(9, 157, 142, 0.95);
+        box-sizing: border-box;
+        opacity: 0.95;
     }
     .header__title {
-        background-color: rgba(9, 157, 142, 0.95);
+        background-color: rgba(9, 157, 142, 0);
         flex: 1 1 auto;
         text-align: left;
-        padding-left: 45px;
+        box-sizing: border-box;
+        height: 100%;
     }
     .header__nav-box {
-        background-color: rgba(9, 157, 142, 0.95);
+        background-color: rgba(9, 157, 142, 0);
         flex: 2 1 auto;
         align-content: stretch;
+        height: 100%;
     }
     .header__nav {
+        height: auto;
         display: flex;
         justify-content: flex-end;
-        margin-top: 5px;
+        margin-top: 5px 45px;
+        box-sizing: border-box;
     }
     .nav__list-items {
-        padding-right: 20px;
+        /*padding-right: 20px;*/
     }
 }
 
@@ -103,12 +109,18 @@ body {
 /* Laptop / Desktop  */
 
 @media all and (min-width:1200px) {
-    .header__title {
-        background-color: rgba(9, 157, 142, 0.95);
-        text-align: center;
+    .container {
+        margin: 0 45px;
     }
-    .nav__list-items-3 {
-        background-color: rgba(9, 157, 142, 0.95);
-        margin-right: 10%;
+    .header__container .container {
+        width: 924px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header__title {
+        text-align: left;
+    }
+    .nav__list-items-3 a {
+        margin-right: 0;
     }
 }
