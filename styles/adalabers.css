@@ -156,6 +156,15 @@
     margin-bottom: 45px;
     line-height: 30px;
 }
+.adalaber__rrss-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
 
 @media all and (min-width:768px) {
 
