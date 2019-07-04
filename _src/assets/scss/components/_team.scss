@@ -1,13 +1,10 @@
-body {
-    margin: 0px;
-}
-
 .team__container {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
     align-items: center;
+    background-color: #ffffff;
 }
 
 .team__container .container {
@@ -29,7 +26,7 @@ body {
 }
 
 .team__triangle {
-    background-color: white;
+    background-color: #ffffff;
     height: 30px;
     width: 30px;
     transform: translateY(50%) rotate(45deg);

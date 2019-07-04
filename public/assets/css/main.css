@@ -16,11 +16,7 @@
 
 .container {
   margin: 0 15px;
-}/*  Mobile  */body {
-  margin: 0;
-}
-
-.header__container {
+}/*  Mobile  */.header__container {
   width: 100vw;
   margin: 0;
   padding: 0px;
@@ -90,11 +86,7 @@
   text-decoration: none;
   list-style: none;
   margin: 15px 8px 15px 7px;
-}/* Version Tablet*//* Laptop / Desktop  */body {
-  margin: 0px;
-}
-
-.hero__container {
+}/* Version Tablet*//* Laptop / Desktop  */.hero__container {
   background: url("../images/fondo02.jpg") center bottom no-repeat;
   background-size: cover;
   height: 421px;
@@ -124,10 +116,6 @@
   transform: translateY(50%);
 }
 
-body {
-  margin: 0px;
-}
-
 .team__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,6 +129,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .team__container .container {
@@ -162,7 +151,7 @@ body {
 }
 
 .team__triangle {
-  background-color: white;
+  background-color: #ffffff;
   height: 30px;
   width: 30px;
   -webkit-transform: translateY(50%) rotate(45deg);
