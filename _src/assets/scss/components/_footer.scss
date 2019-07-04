@@ -7,8 +7,6 @@
 }
 
 .footer .container {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -67,7 +65,6 @@
         line-height: 30px;
         padding: 0px;
         order: 1;
-        transform: translateY(-140%)
     }
     .logo {
         margin-bottom: 45px;
