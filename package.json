@@ -18,6 +18,7 @@
 		"gulp-sass": "4.0.2",
 		"gulp-sourcemaps": "*",
 		"gulp-uglify-es": "^1.0.4",
+		"gulp-util": "^3.0.8",
 		"gulp-zip": "*",
 		"run-sequence": "*"
 	},
