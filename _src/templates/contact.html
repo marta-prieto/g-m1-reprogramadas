@@ -26,12 +26,12 @@
                 <nav class="header__nav">
                     <ul class="nav__list">
                         <li class="nav__list-items nav__list-items-1">
-                            <a href="#team">equipo</a>
+                            <a href="index.html#team">equipo</a>
                         </li>
                     </ul>
                     <ul class="nav__list">
                         <li class="nav__list-items nav__list-items-2">
-                            <a href="#adalabers">quienes Somos</a>
+                            <a href="index.html#adalaber">quienes Somos</a>
                         </li>
                     </ul>
                     <ul class="nav__list">
@@ -60,18 +60,18 @@
 
                     <label for="name">Nombre completo <span>*</span>
                             </label>
-                    <input type="text" id="name" name="name" placeholder="Nombre...">
+                    <input type="text" id="name" name="name" placeholder="Nombre..." required>
 
 
                     <label for="mail">Email <span>*</span></label>
-                    <input type="email" id="mail" name="mail" placeholder="nombre.apellidos@mail.com">
+                    <input type="email" id="mail" name="mail" placeholder="nombre.apellidos@mail.com" required>
 
 
                     <label for="phone">Teléfono</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Ej: 123456789">
+                    <input type="tel" id="phone" name="phone" placeholder="Ej: 123456789" pattern="[0-9]">
 
                     <label for="message">Mensaje <span>*</span></label>
-                    <input type="textarea" id="message" name="message" placeholder="¿Qué necesitas?">
+                    <textarea id="message" name="message" placeholder="¿Qué necesitas?" rows="10" cols="40" required> </textarea>
 
                     <input type="submit" value="enviar">
 
