@@ -6,6 +6,7 @@
     padding: 0px;
     border-top: solid 1px #b8b8b9;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .footer__list {
     margin: 20px 0px 0px 0px;
@@ -20,7 +21,14 @@
     text-transform: uppercase;
     font-weight: 600;
 }
-
+.link {
+    text-decoration: none;
+    color: #54585a;
+}
+.link:visited {
+    text-decoration: none;
+    color: #54585a;
+}
 .footer__menu{
     margin: 0px;
 }
@@ -43,6 +51,7 @@
     box-sizing: border-box;
     
 }
+
 .copyright {
     margin: 0px;
     font-family: 'OpenSans';
