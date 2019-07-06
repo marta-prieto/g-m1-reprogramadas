@@ -1,0 +1,11 @@
+@import 'core/settings';
+@import 'core/links';
+@import 'components/_main.scss';
+@import 'components/_header.scss';
+@import 'components/_contact_hero.scss';
+@import 'components/_footer.scss';
+body {
+    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
+    margin: 0;
+    height: 100vh;
+}

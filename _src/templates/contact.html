@@ -10,39 +10,21 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1baa5ed16a.js"></script>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>Contacto</title>
 </head>
 
 <body>
 
     <!-- HEADER -->
-    <header class="header__container">
-        <div class="container">
-            <!-- Titulo web -->
-            <h1 class="header__title">RE-PROGRAMADAS</h1>
-            <!-- Menú header-->
-            <div class="header__nav-box">
-                <nav class="header__nav">
-                    <ul class="nav__list">
-                        <li class="nav__list-items nav__list-items-1">
-                            <a href="index.html#team">equipo</a>
-                        </li>
-                    </ul>
-                    <ul class="nav__list">
-                        <li class="nav__list-items nav__list-items-2">
-                            <a href="index.html#adalaber">quienes Somos</a>
-                        </li>
-                    </ul>
-                    <ul class="nav__list">
-                        <li class="nav__list-items nav__list-items-3"><a href="contact.html">contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <partial src="_header.html" label="contact_header"></partial>
 
+    <!-- MAIN -->
     <main>
+
+        <!-- HERO -->
+        <partial src="_contact_hero.html" label="contact_hero"></partial>
+
         <div class="container">
 
             <div class="contact__box-info">
@@ -82,9 +64,8 @@
         </div>
     </main>
 
-    <footer>
-
-    </footer>
+    <!-- FOOTER -->
+    <partial src="_footer.html" label="footer"></partial>
 
 </body>
 
