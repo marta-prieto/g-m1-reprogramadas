@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1baa5ed16a.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header__container">
+        <div class="container">
+            <!-- Titulo web -->
+            <h1 class="header__title">RE-PROGRAMADAS</h1>
+            <!-- Menú header-->
+            <div class="header__nav-box">
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-items nav__list-items-1">
+                            <a href="index.html#team">equipo</a>
+                        </li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-items nav__list-items-2">
+                            <a href="index.html#adalaber">quienes Somos</a>
+                        </li>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list-items nav__list-items-3"><a href="contact.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="contact__box-info">
+                <h2> contacto </h2>
+                <p> ¿Quieres saber más sobre nosotras? ¿Te ha quedado alguna duda? ¡Escríbenos! Nos pondremos en contacto contigo lo antes posible </p>
+            </div>
+
+            <div class="contact__box-requested">
+                <p>Todos los campos marcados con <span>*</span> son obligatorios </p>
+            </div>
+
+            <div class="contact__box-form">
+
+                <form action="" method="post">
+
+                    <label for="name">Nombre completo <span>*</span>
+                            </label>
+                    <input type="text" id="name" name="name" placeholder="Nombre..." required>
+
+
+                    <label for="mail">Email <span>*</span></label>
+                    <input type="email" id="mail" name="mail" placeholder="nombre.apellidos@mail.com" required>
+
+
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ej: 123456789" pattern="[0-9]">
+
+                    <label for="message">Mensaje <span>*</span></label>
+                    <textarea id="message" name="message" placeholder="¿Qué necesitas?" rows="10" cols="40" required> </textarea>
+
+                    <input type="submit" value="enviar">
+
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
