@@ -5,14 +5,9 @@
 @import 'layout/_header.scss';
 @import 'layout/_footer.scss';
 // Components
-@import 'components/_main.scss';
+@import 'components/_body.scss';
 @import 'components/_hero.scss';
 @import 'components/_team.scss';
 @import 'components/_adalabers.scss';
 // Pages
 @import 'pages/_contact.scss';
-body {
-    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-    margin: 0;
-    height: 100vh;
-}
