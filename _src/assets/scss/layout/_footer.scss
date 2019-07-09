@@ -54,7 +54,7 @@
 }
 
 @media all and (min-width: 768px){
-.container{
+.footer__container .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
