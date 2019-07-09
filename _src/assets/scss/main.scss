@@ -1,13 +1,13 @@
+// Core
 @import 'core/settings';
 @import 'core/links';
-@import 'components/_main.scss';
-@import 'components/_header.scss';
+// Layout
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+// Components
+@import 'components/_body.scss';
 @import 'components/_hero.scss';
 @import 'components/_team.scss';
 @import 'components/_adalabers.scss';
-@import 'components/_footer.scss';
-body {
-    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-    margin: 0;
-    height: 100vh;
-}
+// Pages
+@import 'pages/_contact.scss';
