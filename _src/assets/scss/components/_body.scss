@@ -6,3 +6,11 @@
 .container {
     margin: 0 15px;
 }
+
+@media all and (min-width:1200px){
+    .page__header .container{
+        margin: 0 auto;
+        width: 924px;
+    }
+    }
+  
