@@ -1,6 +1,7 @@
 /*nav*/
-.page__header{
-    background-color:rgba(9, 157, 141, 0.90);
+
+.page__header {
+    background-color: rgba(9, 157, 141, 0.90);
     width: 100vw;
     position: fixed;
     top: 0px;
@@ -8,14 +9,8 @@
     margin: 0px;
     z-index: 1;
 }
-.header__nav {
-    background-color: rgba(20, 217, 196, 0.9);
-    box-sizing: border-box;
-    height: 100%;
-    width: 100vw;
-    margin: 0px;
-}
-.page__header .container{
+
+.page__header .container {
     margin: 0px 15px;
     display: flex;
     flex-direction: column;
@@ -27,13 +22,21 @@
     color: white;
 }
 
-.header__tittle{
+.header__nav {
+    background-color: rgba(20, 217, 196, 0.9);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100vw;
+    margin: 0px;
+}
+
+.header__tittle {
     font-size: 16px;
     text-align: center;
     margin: 15px 0;
 }
 
-.header__menu{
+.header__menu {
     margin: 0px;
     list-style: none;
     display: flex;
@@ -42,7 +45,8 @@
     justify-content: center;
     padding: 0px;
 }
-.link{
+
+.link {
     text-decoration: none;
     font-family: 'Rubik';
     font-weight: normal;
@@ -52,31 +56,37 @@
     margin: 0px;
     padding: 0px;
 }
-.menu__item{
+
+.menu__item {
     margin: 8px 16px;
 }
-.menu__item:nth-child(2n){
+
+.menu__item:nth-child(2n) {
     margin-right: 0px;
-    margin-left:0px;
+    margin-left: 0px;
 }
 
-.link:visited{
-    text-decoration:none;
+.link:visited {
+    text-decoration: none;
     color: white;
 }
+
+
 /*hero*/
-.page__hero{
+
+.page__hero {
     width: 100%;
     height: 300px;
     background: url('imagendefondo.jpg') center center no-repeat;
     background-size: cover;
 }
+
 @media all and (min-width:768px) {
     /*header*/
-    .page__header{
-        background-color:#099d8d;
+    .page__header {
+        background-color: #099d8d;
     }
-    .page__header .container{
+    .page__header .container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -84,19 +94,19 @@
         margin: 0 45px;
         box-sizing: border-box;
     }
-    .header__nav{
-       width: auto;
-       margin: 15px 0;
-       padding: 0px;
+    .header__nav {
+        width: auto;
+        margin: 15px 0;
+        padding: 0px;
     }
-    .header__menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: right;
-    margin: 0px; 
-    padding: 0px;
-    background-color: #099d8d;
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: right;
+        margin: 0px;
+        padding: 0px;
+        background-color: #099d8d;
     }
 }
