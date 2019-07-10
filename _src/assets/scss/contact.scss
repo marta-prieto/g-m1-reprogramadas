@@ -1,12 +1,12 @@
 // Core
 @import 'core/settings';
 @import 'core/links';
+@import 'components/_body.scss';
+@import 'layout/_container.scss';
 // Layout
 @import 'layout/_footer.scss';
 @import 'layout/_header.scss';
-@import 'layout/_container.scss';
 // Components
-@import 'components/_body.scss';
 @import 'components/_contact_hero';
 @import 'components/_form.scss';
 // Pages
