@@ -18,7 +18,6 @@
     text-transform: uppercase;
     margin: 0;
     padding-top: 30px;
-    padding-bottom: 30px;
     position: relative;
 }
 
@@ -53,14 +52,14 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin: 0px 45px 30px 30px;
-        margin-top: 0;
+        margin-bottom: 45px;
+       
     }
     .box__2 {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-end;
-        margin: 0px 45px 30px 30px;
+        justify-content: flex-start;
+        margin-bottom: 45px;
         text-align: right;
     }
 }
