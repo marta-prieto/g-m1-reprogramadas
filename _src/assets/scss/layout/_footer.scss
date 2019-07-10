@@ -2,10 +2,12 @@
     border-top: solid 1px #b8b8b9;
     box-sizing: border-box;
     text-decoration: none;
+    text-align: center;
 }
 
 .footer__list {
-    margin: 20px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -31,15 +33,8 @@
 
 .logo {
     width: 115px;
-    align-self: center;
     margin: 30px 0 45px 0;
     box-sizing: border-box;
-}
-
-.footer__container .container {
-    margin: 0 15px;
-    box-sizing: border-box;
-    text-align: center;
 }
 
 .copyright {
@@ -53,41 +48,26 @@
 
 @media all and (min-width: 768px) {
     .footer__container .container {
+        padding-top: 30px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "copy menu" "logo menu";
-        padding: 0 45px;
+        grid-template-rows: 25% 50%; ;
+        grid-template-areas: 'copy menu' 'adalab menu';
         box-sizing: border-box;
     }
     .copyright {
         grid-area: copy;
+        text-align: left;
+        margin: 0;
+        padding: 0;
     }
-    .footer__menu {
-        grid-area: menu;
+    .footer__list {
+       grid-area: menu;
+        text-align: right;
     }
     .logo {
-        grid-area: logo;
-        margin-top: 15px;
+        grid-area: adalab;
+        text-align: left;
         margin: 0;
-        padding: 0px;
-    }
-    .copyright__container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .list__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-    }
-}
-
-@media all and (min-width: 1200px) {
-    .footer__container .container {
-        margin: 0 auto;
-        width: 924px;
     }
 }
