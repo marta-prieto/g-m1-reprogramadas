@@ -11,19 +11,20 @@
 
 .list__item {
     list-style: none;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #54585a;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.link {
+.footer__link {
     text-decoration: none;
     color: #54585a;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.link:visited {
+.footer__link:visited {
     text-decoration: none;
     color: #54585a;
 }
@@ -42,7 +43,7 @@
 }
 
 .copyright {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', sans-serif;
     color: #b8b8b9;
     font-size: 14px;
     margin-top: 30px;
