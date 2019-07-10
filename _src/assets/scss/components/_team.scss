@@ -7,11 +7,7 @@
     background-color: #ffffff;
 }
 
-.team__container .container {
-    margin: 0 15px;
-}
-
-.team__container h2 {
+.team__title {
     font-family: 'Rubik', sans-serif;
     font-weight: medium;
     font-size: 24px;
@@ -69,9 +65,6 @@
 }
 
 @media all and (min-width: 768px) {
-    .team__container .container {
-        margin: 0 45px;
-    }
     .aside__container .container {
         margin: 45px 45px 60px 45px;
         display: flex;
@@ -84,7 +77,7 @@
         margin: 0 0 0 15px;
         width: 50%;
     }
-    .team__container h2 {
+    .team__title {
         margin: 45px 0px 15px 0;
     }
 }
