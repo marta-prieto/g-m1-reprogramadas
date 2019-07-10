@@ -53,7 +53,6 @@
         flex-direction: row;
         justify-content: flex-start;
         margin-bottom: 45px;
-       
     }
     .box__2 {
         display: flex;
@@ -166,4 +165,12 @@
     text-decoration: none;
     color: #099d8d;
     margin: 0;
+}
+
+.adalaber__photo {
+    transition: transform ease .4s, border-radius ease .4s;
+    &:hover {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
 }
